@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    height: 700px;
+    background-image: url(/images/Library.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media screen and (min-width:1000px) {
+    #container{
+        height: 700px;
+        width: 1000px;
+        margin: 0 auto;
+    }
+}
+
+.header{
+    margin-top: 0px;
+    width: 100%;
+
+}
+
+.logo {
+    margin: 10px;
+}
+
+nav {
+    float: right;
+    margin: 26px
+}
+
+.navbar {
+    color: #fff ; 
+    font-size: 20px;
+    margin-left: 25px;
+    text-decoration: none; 
+}
+
+.navbar:hover {
+    text-decoration: underline;
+}
+
+span {
+    width: 100%;
+}
+
+h1 {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    padding-top: 200px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    margin-top: -50px
+}
